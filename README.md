@@ -33,3 +33,5 @@ content
 access; set by default to public but can be any of private, public or role
 
 Authentication: Users are authenticated and validated using either the github, google or facebok signin methods.
+
+
