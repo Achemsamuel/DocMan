@@ -19,6 +19,8 @@
 		A53DBC5E22675611009489B1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DBC5D22675611009489B1 /* SignUpViewController.swift */; };
 		A53DBC60226766F8009489B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A53DBC5F226766F8009489B1 /* GoogleService-Info.plist */; };
 		A53DBC6222677ADE009489B1 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DBC6122677ADE009489B1 /* SuperViewController.swift */; };
+		A53DBC642268A319009489B1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DBC632268A318009489B1 /* OnboardingViewController.swift */; };
+		A53DBC662268A59A009489B1 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DBC652268A59A009489B1 /* OnboardingCollectionViewCell.swift */; };
 		BAD13815271B01EA8DFAE00E /* Pods_DocManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A34D623A2BA2F1E8D48336D /* Pods_DocManTests.framework */; };
 		F1F8CD582CCF780049D73A62 /* Pods_DocMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CA0122CBA76F764ED19AFE /* Pods_DocMan.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		A53DBC5D22675611009489B1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A53DBC5F226766F8009489B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A53DBC6122677ADE009489B1 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		A53DBC632268A318009489B1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A53DBC652268A59A009489B1 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		C86212CD26772B9486311FFD /* Pods-DocManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocManUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DocManUITests/Pods-DocManUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8CA0122CBA76F764ED19AFE /* Pods_DocMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E2BB3B797568120C7A7A31 /* Pods-DocManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocManUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DocManUITests/Pods-DocManUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,10 +175,11 @@
 		A53DBC5622669FA1009489B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A53DBC2A22669F7D009489B1 /* ViewController.swift */,
+				A53DBC6122677ADE009489B1 /* SuperViewController.swift */,
+				A53DBC632268A318009489B1 /* OnboardingViewController.swift */,
 				A53DBC5B2266AC48009489B1 /* LoginViewController.swift */,
 				A53DBC5D22675611009489B1 /* SignUpViewController.swift */,
-				A53DBC6122677ADE009489B1 /* SuperViewController.swift */,
+				A53DBC2A22669F7D009489B1 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 		A53DBC5722669FA7009489B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A53DBC652268A59A009489B1 /* OnboardingCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -480,9 +486,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53DBC5C2266AC48009489B1 /* LoginViewController.swift in Sources */,
+				A53DBC642268A319009489B1 /* OnboardingViewController.swift in Sources */,
 				A53DBC2B22669F7D009489B1 /* ViewController.swift in Sources */,
 				A53DBC6222677ADE009489B1 /* SuperViewController.swift in Sources */,
 				A53DBC5E22675611009489B1 /* SignUpViewController.swift in Sources */,
+				A53DBC662268A59A009489B1 /* OnboardingCollectionViewCell.swift in Sources */,
 				A53DBC2922669F7D009489B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
