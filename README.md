@@ -35,14 +35,13 @@ access; set by default to public but can be any of private, public or role
 Authentication: Users are authenticated and validated using either the github, google or facebok signin methods.
 
 
-!***!
-Onboarding Screen
-![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_375/v1561296051/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_13.27.45.png)
 
-!***!
-Login Screen
-![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_375/v1561296043/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_13.27.58.png)
+# Onboarding Screen
+![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_260/v1561296051/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_13.27.45.png)
 
-!***!
-SignUp Screen
-![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_375/v1561296170/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_14.22.34.png)
+
+# Login Screen
+![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_260/v1561296043/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_13.27.58.png)
+
+# SignUp Screen
+![alt text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_260/v1561296170/Simulator_Screen_Shot_-_iPhone_Xs_-_2019-06-23_at_14.22.34.png)
